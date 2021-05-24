@@ -1,0 +1,71 @@
+body {
+    background-color: #ccffcc;
+    /* IF PREFERRED, USE WHITE OVER CCFFCC 
+        AND USE CCFFCC FOR THE INDIVIDUAL AREAS*/
+}
+
+/* THIS MIGHT CAUSE A PROBLEM LATER */
+h1 {
+    text-align: center;
+} 
+/* THIS MIGHT CAUSE A PROBLEM LATER*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.me{
+    /* background-color: #ccffcc; */
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 10px;
+    border: 3px solid #006600;
+    border-radius: 10px;
+    width: 900px;
+}
+
+
+.me img{
+    padding-right: 10px;
+    float: left;
+}
+
+.projects{
+    /* background-color: #ccffcc; */
+    padding: 10px 0px 10px 10px;
+    border: 3px solid #006600;
+    border-radius: 10px;
+    width: 900px;
+}
+
+.projects img {
+    padding-right: 10px;
+    float: left;
+}
+
+.list {
+    /* background-color: #ccffcc; */
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px 0px 0px;
+    border: 3px solid #006600;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 1600px;
+}
+
+.contact {
+    /* background-color: #ccffcc; */
+    padding: 0px 10px 0px 10px;
+    border: 3px solid #006600;
+    border-radius: 10px;
+    position: absolute;
+    top: 400px;
+    left: 1600px;
+}
+
+form {
+    /* background-color: #ccffcc; */
+    text-align: center;
+}
